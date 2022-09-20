@@ -1,6 +1,13 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  #logo-purple {
+    color: #BB86FC !important;
+    font-family: 'Abril Fatface', cursive;
+  }
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -9,4 +16,9 @@
 
 .navbar-lewagon .navbar-brand img {
   width: 40px;
+}
+
+.nav-item a {
+  color: #BB86FC !important;
+  opacity: 85%;
 }

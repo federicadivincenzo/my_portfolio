@@ -10,3 +10,22 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+
+body {
+  background-color: #121212;
+  color: white;
+}
+
+
+.text-purple {
+  color: #BB86FC !important;
+}
+
+.text-abril {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.text-underline {
+  text-decoration: underline;
+}

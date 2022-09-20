@@ -1,0 +1,22 @@
+.card {
+  padding-top: 80%;
+  padding-left: 2em;
+  padding-bottom: 2em;
+  background-position: center;
+  background-size: cover;
+  object-fit: fit;
+  border-radius: .8em;
+  box-shadow: rgba(204, 203, 203, 0.16) 0px 1px 4px;
+  margin-bottom: 1.5em;
+
+  .card-link-white {
+    color: white;
+    text-decoration: none;
+    opacity: .8;
+  }
+
+  .card-link-white:hover {
+    opacity: 1;
+  }
+
+}

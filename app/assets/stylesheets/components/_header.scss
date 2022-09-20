@@ -1,0 +1,23 @@
+.header-text {
+  background-color: #121212;
+  color: white;
+  width: 85%;
+
+
+  .title {
+    font-size: 4em;
+    margin-bottom: .8em;
+
+  }
+  .text {
+    font-size: 1.8em;
+    width: 60%;
+  }
+
+}
+
+.header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
